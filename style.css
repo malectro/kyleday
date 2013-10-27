@@ -1,0 +1,228 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  height: 13000px;
+}
+
+#hello-box {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 200px;
+  height: 94px;
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  z-index: 3;
+}
+#hello {
+  position: relative;
+  opacity: 0;
+  font-size: 1px;
+  line-height: 125%;
+  z-index: 2;
+}
+.o-guard, .e-guard, .e-guard2 {
+  background: inherit;
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  left: 50%;
+  top: 266px;
+  z-index: 1;
+}
+.o-guard {
+  margin-left: 60px;
+}
+.e-guard {
+  margin-left: -53px;
+}
+.e-guard2 {
+  margin-left: -40px;
+  top: 262px;
+}
+
+#plz {
+  display: none;
+  position: absolute;
+  top: 300px;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+#boxes {
+  position: fixed;
+  top: -1000px;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+  z-index: 2;
+}
+
+#boxes div {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(rgb(0,255,0), rgb(255,0,0), rgb(0,0,255), rgb(0,255,0), rgb(255,0,0), rgb(0,0,255), black);
+  background: -webkit-linear-gradient(rgb(0,255,0), rgb(255,0,0), rgb(0,0,255), rgb(0,255,0), rgb(255,0,0), rgb(0,0,255), black);
+}
+
+.box-l {
+  height: 1292px;
+  width: 15px;
+  border-radius: 15px;
+}
+.box-o {
+  height: 1294px;
+  width: 50px;
+  border-radius: 20px / 26px;
+}
+
+#box1 {
+  left: 18px;
+}
+#box2 {
+  left: 61px;
+}
+#box3 {
+  left: 85px;
+}
+#box4 {
+  left: 145px;
+  width: 14px;
+}
+#box5 {
+  left: 173px;
+  width: 14px;
+}
+#box6 {
+  left: 200px;
+}
+#box7 {
+  left: 267px;
+  width: 14px;
+}
+
+#boxes-cover {
+  display: none;
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: inherit;
+}
+
+#info1 {
+  position: absolute;
+  top: 2000px;
+  font-size: 100px;
+  font-weight: bold;
+  z-index: 1;
+}
+.text {
+  position: fixed;
+  font-size: 100px;
+  font-weight: bold;
+  z-index: 4;
+  width: 100%;
+
+}
+#info2 {
+  left: 100%;
+  top: 300px;
+}
+#info3 {
+  left: -100%;
+  top: 300px;
+}
+
+#info4 {
+  position: absolute;
+  top: 5500px;
+  left: 0;
+  padding: 10px;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 125%;
+  background: #eee;
+  box-shadow: 0 0 10px #000 inset;
+  color: #333;
+  text-shadow: 0 -1px 1px #000;
+  font-style: italic;
+}
+
+#info5 {
+  left: 100%;
+  top: 400px;
+}
+
+#invite {
+  position: absolute;
+  top: 8000px;
+  left: 50%;
+  width: 500px;
+  padding: 20px;
+  margin-left: -280px;
+  border: 10px solid rgb(200, 220, 255);
+  font-size: 18px;
+  line-height: 200%;
+  font-family: Zapfino, script, serif;
+  background: rgb(210, 230, 255);
+  box-shadow: 0 0 10px black;
+  z-index: 5;
+  color: black;
+}
+
+#invite .card-title {
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+}
+
+#invite .col-l {
+  font-family: Georgia, serif;
+  float: left;
+  width: 110px;
+  line-height: 28px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+#info6 {
+  top: -100px;
+  left: 10px;
+  font-size: 14px;
+}
+#info7 {
+  top: 100%;
+  left: 30px;
+  font-size: 14px;
+}
+
+#field {
+  position: absolute;
+  top: 11000px;
+  height: 3000px;
+  width: 100%;
+  background: url('bunnies.png') bottom right no-repeat;
+}
+.star {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  background: #fff;
+  box-shadow: 0 0 10px 5px #fff;
+}
